@@ -1,0 +1,9 @@
+# Cache do MkDocs
+site/
+
+# Cache do Python gerado pelo Hook
+__pycache__/
+*.pyc
+
+# Arquivo de Banco de Dados gerado automaticamente
+docs/assets/js/checklist-database.js

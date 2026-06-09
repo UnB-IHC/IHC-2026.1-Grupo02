@@ -19,7 +19,7 @@ theme:
         name: Mudar para modo claro
 
 nav:
-  - Introdução: introducao.md
+  - Introdução: index.md
   - CheckList:
       - Desenvolvimento Web: CheckList/Desenvolvimento Web.md
       - Design: CheckList/Desing.md
@@ -35,3 +35,13 @@ nav:
       - BluePrint: Extras/BluePrint.md
       - Design Empático: Extras/Design Empatico.md
       - PPTs e PDFs Acessíveis: Extras/PPTs e PDFs acessiveis.md
+
+extra_css:
+  - assets/css/checklist.css
+
+extra_javascript:
+  - assets/js/checklist-database.js
+  - assets/js/checklist-manager.js
+
+hooks:
+  - auto_database.py
