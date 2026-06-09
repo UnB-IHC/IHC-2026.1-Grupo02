@@ -1,1 +1,37 @@
 site_name: My Docs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
+nav:
+  - Introdução: introducao.md
+  - CheckList:
+      - Desenvolvimento Web: CheckList/Desenvolvimento Web.md
+      - Design: CheckList/Desing.md
+      - Gestão de Projetos: CheckList/Gestao de Projetos.md
+      - Geração de Conteúdo: CheckList/Geração de Conteudo.md
+      - Heurística de Nielsen: CheckList/Heuristica de Nielsen.md
+      - Ferramentas de Acessibilidade: CheckList/Ferramentas de Acessibilidade.md
+      - Resultado da Acessibilidade: CheckList/Resultado da Acessibilidade.md
+  - Extras:
+      - UX Design: Extras/UX Design.md
+      - Personas: Extras/Personas.md
+      - User Journey X User Flows: Extras/User Journey X User Flows.md
+      - BluePrint: Extras/BluePrint.md
+      - Design Empático: Extras/Design Empatico.md
+      - PPTs e PDFs Acessíveis: Extras/PPTs e PDFs acessiveis.md
