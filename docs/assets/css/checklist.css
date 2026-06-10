@@ -1,3 +1,9 @@
+@property --percentage {
+    syntax: "<number>";
+    inherits: true;
+    initial-value: 0;
+}
+
 input[type="checkbox"][data-id] {
     width: 1.25rem;
     height: 1.25rem;
@@ -26,6 +32,7 @@ input[type="checkbox"][data-id] {
     align-items: center;
     justify-content: center;
     position: relative;
+    transition: --percentage 0.4s ease;
 }
 
 .radial-progress-circle::before {

@@ -19,7 +19,7 @@ theme:
         name: Mudar para modo claro
 
 nav:
-  - Introdução: index.md
+  - Contextualização: index.md
   - CheckList:
       - Desenvolvimento Web: CheckList/Desenvolvimento Web.md
       - Design e Conteúdo: CheckList/Desing.md

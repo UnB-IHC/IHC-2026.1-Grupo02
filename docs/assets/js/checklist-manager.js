@@ -1,3 +1,5 @@
+// docs/assets/js/checklist-manager.js
+
 class ChecklistManager {
     constructor() {
         this.storageKey = 'ong_portal_checklist_progress';
@@ -36,7 +38,7 @@ class ChecklistManager {
                     delete this.state[id];
                 }
                 this.saveState();
-                this.renderAllProgressBars();
+                this.renderAllProgressBars(); // Atualiza sem destruir o HTML!
             });
         });
     }
@@ -52,6 +54,7 @@ class ChecklistManager {
     }
 
     renderAllProgressBars() {
+        // 1. Atualiza Widgets de Categorias Específicas
         const categoryWidgets = document.querySelectorAll('.category-progress-widget');
         categoryWidgets.forEach(widget => {
             const category = widget.getAttribute('data-category');
@@ -59,35 +62,59 @@ class ChecklistManager {
             const idList = ChecklistDB[category] || [];
             
             const progress = this.calculateProgress(idList);
-            this.injectHTML(widget, progress, title);
+            this.updateOrInjectWidget(widget, progress, title);
         });
 
+        // 2. Atualiza Widget de Progresso Geral
         const globalWidgets = document.querySelectorAll('.global-progress-widget');
         globalWidgets.forEach(widget => {
             const title = widget.getAttribute('data-title');
             const allIds = getAllSiteIds();
             
             const progress = this.calculateProgress(allIds);
-            this.injectHTML(widget, progress, title);
+            this.updateOrInjectWidget(widget, progress, title);
         });
     }
 
-    injectHTML(container, progress, title) {
+    // NOVA LÓGICA: Atualiza se já existir, injeta apenas se for a primeira vez
+    updateOrInjectWidget(container, progress, title) {
         if (progress.total === 0) {
             container.innerHTML = '';
             return;
         }
 
         const label = `${title} (${progress.checked} / ${progress.total})`;
-        
-        container.innerHTML = `
-            <div class="radial-progress-container">
-                <div class="radial-progress-circle" style="--percentage: ${progress.percentage};">
-                    <span class="radial-progress-text">${progress.percentage}%</span>
+        const circle = container.querySelector('.radial-progress-circle');
+        const text = container.querySelector('.radial-progress-text');
+        const labelDiv = container.querySelector('.radial-progress-label');
+
+        // Se o widget já existe na tela, apenas altera as propriedades (efeito 100% smooth)
+        if (circle && text && labelDiv) {
+            circle.style.setProperty('--percentage', progress.percentage);
+            text.innerText = `${progress.percentage}%`;
+            labelDiv.innerText = label;
+        } 
+        // Se é a primeira vez que a página carrega, cria a estrutura básica zerada
+        else {
+            container.innerHTML = `
+                <div class="radial-progress-container">
+                    <div class="radial-progress-circle" style="--percentage: 0;">
+                        <span class="radial-progress-text">0%</span>
+                    </div>
+                    <div class="radial-progress-label">${label}</div>
                 </div>
-                <div class="radial-progress-label">${label}</div>
-            </div>
-        `;
+            `;
+
+            // Ativa a animação inicial do 0 até o valor salvo após 10ms
+            const newCircle = container.querySelector('.radial-progress-circle');
+            const newText = container.querySelector('.radial-progress-text');
+            setTimeout(() => {
+                if (newCircle && newText) {
+                    newCircle.style.setProperty('--percentage', progress.percentage);
+                    newText.innerText = `${progress.percentage}%`;
+                }
+            }, 10);
+        }
     }
 }
 
