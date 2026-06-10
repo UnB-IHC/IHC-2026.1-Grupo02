@@ -36,8 +36,9 @@ nav:
       - Design Empático: TemasIHC/Design Empatico.md
       - PPTs e PDFs Acessíveis: TemasIHC/PPTs e PDFs acessiveis.md
   - Entrevista:
-      - Think out Loud: Entrevista/Think out Loud.md
+      - Think Aloud: Entrevista/Think Aloud.md
       - Roteiro: Entrevista/Roteiro.md
+      - Referencias: Entrevista/Referencias.md
 
 extra_css:
   - assets/css/checklist.css
