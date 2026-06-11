@@ -1,4 +1,5 @@
 # Cache do MkDocs
+venv
 site/
 
 # Cache do Python gerado pelo Hook
