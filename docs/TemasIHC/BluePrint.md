@@ -1,25 +1,8 @@
-introduçao ao blueprinting
-por que blueprinting? qual valor do método
-visão holistica
-alinhamento entre equipes
-melhora de operações internas
-gera ação
-frontstage e backstage  
-frotstage é tudo que o cliente vê e interage
-backstage é tudo que acontece nos bastidores
-blueprint focado enos sitemas internos, responde o que produz isso?gera diagnosticos de ação 
-são metodos complementares 
-journer map foca na experiencia do cliente, responde o que o cliente sente?constroi empatia
-quando e o que elaborar no blueprint?
-estado atual x estado futuro
-formato blueprint
-cenarios representa um fluxo de ponta a ponta concreto e expecífico
-fases organiza os cenários
-passos açoes detalhadas dentro de cada fase
-passos visiveis e não-visiveis
-processos de blueprinting
-checklist
-facilitando a seçao de blueprint
-camadas de informaçao o que capturar?
-sintese :trasnformando o workshop em trabalho
-perguntas frequentes
+Blueprinting
+
+O Blueprinting é um método que permite visualizar como uma organização entrega valor e experiência ao cliente, analisando sua jornada para compreender os processos que acontecem nos bastidores. Seu principal valor está em tornar visíveis as atividades, sistemas e interações necessárias para que uma experiência seja entregue.
+Trata-se de uma abordagem colaborativa que facilita o diálogo entre stakeholders, promove o alinhamento entre equipes e oferece uma visão holística do serviço. Por meio de uma representação visual, é possível entender como a experiência é construída, identificar gargalos, diagnosticar problemas difíceis de perceber e gerar insights que impulsionam mudanças e melhorias concretas.
+Diferentemente do Journey Map, que se concentra na perspectiva do cliente e responde à pergunta “o que o cliente sente?”, o Blueprinting foca nos sistemas internos e busca responder “o que produz essa experiência?”. Enquanto o Journey Map desenvolve empatia, o Blueprinting gera diagnósticos e direciona ações de melhoria. Por isso, os dois métodos são complementares.
+O Blueprint considera tanto o Frontstage quanto o Backstage. O Frontstage reúne tudo aquilo que o cliente vê e com o que interage diretamente, enquanto o Backstage engloba os processos, pessoas, políticas e sistemas que operam nos bastidores para sustentar a experiência.
+A construção de um Blueprint pode representar o estado atual de um serviço ou projetar um estado futuro desejado. Sua estrutura normalmente é organizada em cenários, que representam fluxos específicos de ponta a ponta; fases, que agrupam etapas semelhantes; e passos, que detalham as ações visíveis e não visíveis realizadas ao longo da jornada.
+O processo de Blueprinting envolve planejamento, facilitação de workshops, uso de checklists, definição das camadas de informação que serão capturadas e posterior síntese dos resultados. Essa síntese transforma os aprendizados obtidos nas sessões colaborativas em diagnósticos, oportunidades de melhoria e planos de ação para evolução do serviço.
