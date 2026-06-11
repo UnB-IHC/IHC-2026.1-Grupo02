@@ -1,30 +1,21 @@
-A Avaliação da Experiência do Usuário (UX) é explicado em conceitos fundamentais, classificações de métodos de avaliação e destacando a Avaliação Heurística de Jakob Nielsen como principal técnica estudada.
-Principais tópicos
-Conceito de avaliação UX: processo de validar e melhorar a experiência do usuário durante o desenvolvimento de software.
-Classificações de métodos:
-Atitudinal × Comportamental Atitudinal: É o grupo de crenças e pontos de vista particulares do indivíduo. Há a limitação de o quanto ele quer compartilhar a respeito disso. Comportamental: Tem um enfoque nas interações desse indivíduo com o sistema.
-Qualitativa × Quantitativa Qualitativa: Foca em percepções contextuais e detalhadas dos comportamentos dos usuários. Quantitativa: Foca em análises numéricas de dados dos fenômenos  observados.
-Formativa × Somativa Formativa: Diagnóstico feito durante o desenvolvimento para corrigir falhas de UX. Somativa: Diagnóstico realizado ao fim do desenvolvimento para medir o sucesso de seu UX.
-Empírica × Analítica Empírica: Uma análise feita a partir da interação real com os usuários finais. Analítica: Uma análise feita com base em estudos e dados já existentes, sem interação direta com os usuários finais.
-Métodos mais utilizados: Avaliação Heurística AttrakDiff e-SQUUX SERVQUAL/SERVPERF
-Destaque: Avaliação Heurística
-Método criado por Jakob Nielsen. A avaliação Heurística é um método desenvolvido por Jakob Nielsen e que tem como objetivo principal identificar problemas de design em uma interface.
-Para avaliar a usabilidade do sistema, baseia-se nas 10 Heurísticas.
-O fluxo de usabilidade segue a ideia de padronização, visibilidade e linguagem.
-Essas heurísticas desenvolvidas por Jakob Nielsen podem ser usadas para diversas aplicações, como sistemas web, jogos virtuais e até produtos físicos.
-Além da Heurística de Nielsen, temos outras relevantes e que já estão bem definidas, como a de Shneiderman, com as 8 regras de ouro. 
-As características marcantes desse método são a sua economia e simplicidade, o método analítico e a utilidade.
-Alto custo-benefício;
-Utilidade no começo do desenvolvimento;
-Acessibilidade para equipes pouco desenvolvidas;
-Auxílio na identificação de problemas sem depender de usuários reais.
-Não substitui testes reais;
-É dependente de um contexto real e de uma procura real;
-Serve apenas como um complemento para os testes e desenvolvimento, um auxílio.
-Baseado em 10 heurísticas de usabilidade.
-Tem baixo custo e alta eficiência para encontrar problemas de interface.
-Pode ser aplicado em sistemas web, aplicativos, jogos e produtos físicos.
-Processo de aplicação
-Preparação (equipe, ferramentas e escopo)
-Avaliação da interface
-Consolidação e priorização dos problemas encontrados
+A Avaliação da Experiência do Usuário (UX) consiste em um processo sistemático utilizado para validar, medir e aprimorar a experiência que os usuários têm ao interagir com um sistema durante o seu desenvolvimento. Seu principal objetivo é identificar problemas de usabilidade e experiência, permitindo que sejam realizadas melhorias antes da entrega final do produto. Dessa forma, a avaliação UX contribui para a criação de sistemas mais eficientes, intuitivos e alinhados às necessidades dos usuários.
+
+Os métodos de avaliação UX podem ser classificados de diferentes maneiras. Na classificação atitudinal e comportamental, os métodos atitudinais analisam as crenças, opiniões e percepções dos usuários sobre o sistema, embora dependam do quanto cada indivíduo está disposto a compartilhar suas experiências. Já os métodos comportamentais observam diretamente as interações dos usuários com a interface, focando em suas ações e comportamentos durante o uso.
+
+Outra classificação importante é a divisão entre métodos qualitativos e quantitativos. Os métodos qualitativos buscam compreender em profundidade os comportamentos, percepções e contextos de uso, fornecendo informações detalhadas sobre a experiência do usuário. Em contrapartida, os métodos quantitativos trabalham com dados numéricos e métricas, permitindo análises estatísticas dos fenômenos observados.
+
+As avaliações também podem ser classificadas como formativas ou somativas. A avaliação formativa ocorre durante o desenvolvimento do produto e tem caráter diagnóstico, auxiliando na identificação e correção de problemas de UX antes da conclusão do projeto. Já a avaliação somativa é realizada ao final do desenvolvimento, com o objetivo de medir a qualidade da experiência oferecida e verificar se os objetivos estabelecidos foram alcançados.
+
+Além disso, existem os métodos empíricos e analíticos. Os métodos empíricos envolvem a participação direta dos usuários finais, analisando sua interação real com o sistema. Os métodos analíticos, por sua vez, baseiam-se em conhecimentos, estudos e critérios previamente estabelecidos, dispensando a participação direta dos usuários durante a avaliação.
+
+Entre os métodos mais utilizados para avaliação da experiência do usuário destacam-se a Avaliação Heurística, o AttrakDiff, o e-SQUUX e o SERVQUAL/SERVPERF. Dentre eles, a Avaliação Heurística é uma das técnicas mais populares devido à sua simplicidade, baixo custo e eficiência na identificação de problemas de interface.
+
+A Avaliação Heurística, criada por Jakob Nielsen, tem como principal objetivo identificar problemas de usabilidade em interfaces por meio da análise de especialistas. O método baseia-se em dez heurísticas de usabilidade, que servem como princípios orientadores para avaliar aspectos como visibilidade do sistema, consistência, padronização, linguagem adequada ao usuário e prevenção de erros. Essas heurísticas podem ser aplicadas em diversos contextos, incluindo sistemas web, aplicativos móveis, jogos digitais e até produtos físicos.
+
+Além das heurísticas de Nielsen, existem outros conjuntos de princípios amplamente reconhecidos, como as 8 Regras de Ouro de Ben Shneiderman. Entretanto, a Avaliação Heurística de Nielsen destaca-se por seu elevado custo-benefício, facilidade de aplicação e utilidade principalmente nas fases iniciais do desenvolvimento, quando é possível corrigir problemas antes que se tornem mais complexos e caros de resolver.
+
+Entre suas principais vantagens estão a acessibilidade para equipes com poucos recursos, a rapidez na execução e a capacidade de identificar diversos problemas sem a necessidade de envolver usuários reais. Contudo, a técnica possui limitações importantes. Ela não substitui os testes com usuários, pois depende da interpretação dos avaliadores e não reflete necessariamente o comportamento real das pessoas durante o uso do sistema. Por esse motivo, é considerada uma ferramenta complementar dentro do processo de desenvolvimento de UX.
+
+A aplicação da Avaliação Heurística geralmente segue três etapas principais. Inicialmente ocorre a preparação, na qual são definidos o escopo da avaliação, os avaliadores e as ferramentas necessárias. Em seguida é realizada a avaliação da interface, momento em que os especialistas examinam o sistema com base nas heurísticas estabelecidas, registrando problemas e inconsistências encontrados. Por fim, acontece a consolidação e priorização dos problemas identificados, classificando-os de acordo com sua gravidade e impacto para orientar as correções mais importantes.
+
+Assim, a Avaliação Heurística constitui uma das técnicas mais relevantes da área de UX, oferecendo uma abordagem prática, econômica e eficiente para identificar problemas de usabilidade e contribuir para o desenvolvimento de produtos digitais mais intuitivos e satisfatórios para os usuários.
