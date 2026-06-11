@@ -22,7 +22,7 @@ nav:
   - Contextualização: index.md
   - CheckList:
       - Desenvolvimento Web: CheckList/Desenvolvimento Web.md
-      - Design e Conteúdo: CheckList/Desing.md
+      - Design e Conteúdo: CheckList/Design.md
       - Ferramentas de Acessibilidade: CheckList/Ferramentas de Acessibilidade.md
       - Geração de Conteúdo: CheckList/Geração de Conteudo.md
       - Gestão de Projetos: CheckList/Gestao de Projetos.md
