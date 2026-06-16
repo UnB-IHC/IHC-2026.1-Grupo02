@@ -1,4 +1,4 @@
-# Acessibilidade Digital e Avaliação da Experiência do Usuário: Boas Práticas e Métodos para o Desenvolvimento de Sistemas
+# Acessibilidade Digital e Avaliação da Experiência do Usuário
 
 ## Introdução
 

@@ -1,4 +1,4 @@
-# Guia de Construção de Personas e Personas Ecossistêmicas: Uma Abordagem Holística para o Desenvolvimento de Software
+# Guia de Construção de Personas e Personas Ecossistêmicas
 
 ## Introdução
 
