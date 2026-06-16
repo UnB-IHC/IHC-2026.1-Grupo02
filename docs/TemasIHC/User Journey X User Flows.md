@@ -1,4 +1,6 @@
-# User Journey vs. User Flow
+# User Journey vs User Flows
+
+## Aplicações e Contextos de Uso no Desenvolvimento de Software
 
 ## Introdução
 
