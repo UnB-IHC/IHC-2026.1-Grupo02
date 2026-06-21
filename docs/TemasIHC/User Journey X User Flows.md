@@ -1,243 +1,111 @@
-# User Journey vs User Flows
-
-## Aplicações e Contextos de Uso no Desenvolvimento de Software
+# User Journey vs User Flow
 
 ## Introdução
 
-No desenvolvimento de produtos digitais, compreender a experiência do usuário é fundamental para criar soluções eficientes, acessíveis e satisfatórias. Nesse contexto, duas ferramentas amplamente utilizadas no design de Experiência do Usuário (UX) são o **User Journey** e o **User Flow**.
+No desenvolvimento de produtos digitais, compreender a experiência do usuário é fundamental para criar soluções eficientes, acessíveis e alinhadas às necessidades reais das pessoas. Nesse contexto, duas ferramentas amplamente utilizadas em UX são o **User Journey** e o **User Flow**.
 
-Embora possuam objetivos relacionados e sejam frequentemente utilizadas em conjunto, essas ferramentas abordam aspectos distintos da interação entre usuário e produto. Entender suas diferenças é essencial para evitar retrabalho, melhorar a comunicação entre designers e desenvolvedores e garantir que as soluções atendam às necessidades reais dos usuários.
+Embora complementares, elas possuem objetivos distintos. O **User Journey** oferece uma visão ampla da experiência do usuário, considerando emoções, motivações e contexto ao longo do tempo. Já o **User Flow** detalha os passos necessários para que o usuário realize uma tarefa específica dentro do sistema.
 
-De forma resumida, o **User Journey** concentra-se na experiência ampla do usuário, considerando emoções, motivações e contexto ao longo do tempo. Já o **User Flow** foca nos passos técnicos e na navegação dentro do sistema, detalhando como o usuário realiza uma tarefa específica.
+Uma prática recomendada é iniciar pela compreensão da jornada do usuário e, posteriormente, aprofundar a análise por meio dos fluxos de interação.
 
-Uma prática recomendada é iniciar o processo pela compreensão da jornada do usuário e, posteriormente, aprofundar a análise por meio da construção dos fluxos de interação.
+## User Journey: Visão Holística da Experiência
 
-## User Journey: Compreendendo a Experiência Holística
+O **User Journey**, ou jornada do usuário, representa toda a experiência de uma pessoa ao interagir com um produto, serviço ou marca, desde a identificação de uma necessidade até o período posterior ao uso.
 
-O **User Journey**, ou jornada do usuário, é uma representação visual e estratégica da experiência completa de uma pessoa ao interagir com um produto, serviço ou marca.
+Seu objetivo é compreender o comportamento do usuário em um contexto amplo, considerando ações, pensamentos, emoções, expectativas e dificuldades encontradas ao longo do percurso.
 
-Essa jornada começa quando o usuário identifica uma necessidade e pode se estender até o período posterior ao uso da solução. Seu principal objetivo é compreender o comportamento humano em um contexto amplo, considerando emoções, pensamentos, expectativas, motivações e dificuldades encontradas ao longo do percurso.
+Essa ferramenta busca responder perguntas como:
 
-Diferentemente de ferramentas centradas na interface, o User Journey inclui acontecimentos que ocorrem fora do ambiente digital, permitindo uma visão holística da experiência.
-
-O User Journey busca responder perguntas como:
-
-* O que o usuário está tentando alcançar?
-* O que ele pensa durante a experiência?
+* O que o usuário deseja alcançar?
 * Como ele se sente em cada etapa?
-* Quais obstáculos encontra ao longo do caminho?
+* Quais obstáculos enfrenta?
 * Onde existem oportunidades de melhoria?
 
-Essa abordagem ajuda as equipes a identificar lacunas nos serviços oferecidos, alinhar diferentes áreas da organização e descobrir oportunidades de inovação.
+Um mapa de jornada geralmente é composto por:
 
-### Anatomia de um User Journey Map
+* **Fases:** etapas cronológicas da experiência;
+* **Ações:** atividades realizadas pelo usuário;
+* **Pensamentos:** dúvidas e expectativas;
+* **Sentimentos:** emoções associadas à experiência;
+* **Oportunidades:** melhorias identificadas.
 
-Um mapa de jornada eficiente geralmente é organizado em faixas horizontais que representam diferentes dimensões da experiência.
+Por exemplo, uma usuária que deseja comprar um par de sapatos pode passar pelas etapas de descoberta da necessidade, pesquisa, comparação de opções, compra e compartilhamento de sua experiência. Em cada momento, suas emoções influenciam a percepção sobre a marca.
 
-As principais são:
+## User Flow: Mapeando a Navegação
 
-#### 1. Fases
+O **User Flow**, ou fluxo do usuário, representa os passos necessários para que uma pessoa alcance um objetivo específico dentro de uma interface.
 
-Representam as etapas cronológicas da experiência.
-
-Exemplos:
-
-* Descoberta;
-* Consideração;
-* Uso;
-* Retenção;
-* Fidelização.
-
-#### 2. Ações
-
-Descrevem o que o usuário faz em cada fase.
-
-Exemplos:
-
-* Pesquisa informações na internet;
-* Clica em um anúncio;
-* Compara alternativas;
-* Realiza uma compra;
-* Compartilha sua experiência.
-
-#### 3. Pensamentos
-
-Apresentam as dúvidas, expectativas e reflexões do usuário.
-
-Exemplos:
-
-* "Será que esse site é confiável?"
-* "Esse produto atende às minhas necessidades?"
-* "Vale a pena continuar usando?"
-
-#### 4. Sentimentos
-
-Representam a curva emocional da jornada.
-
-Exemplos:
-
-* Ansiedade;
-* Frustração;
-* Confiança;
-* Satisfação;
-* Alívio.
-
-Mapear as emoções ajuda a identificar pontos críticos e momentos decisivos da experiência.
-
-#### 5. Oportunidades
-
-Reúnem ideias e iniciativas para melhorar cada etapa da jornada.
-
-Exemplos:
-
-* Simplificar o cadastro;
-* Melhorar mensagens de confirmação;
-* Oferecer suporte contextual;
-* Criar programas de fidelidade.
-
-### Exemplo de User Journey
-
-Considere uma usuária chamada Ana que deseja comprar um par de sapatos.
-
-Sua jornada pode ser representada da seguinte forma:
-
-* Percebe a necessidade de adquirir um novo produto;
-* Pesquisa opções e preços;
-* Compara avaliações;
-* Realiza a compra;
-* Recebe o produto antes do prazo;
-* Compartilha uma avaliação positiva.
-
-Ao longo dessa jornada, Ana experimenta diferentes emoções que influenciam suas decisões e sua percepção sobre a marca.
-
-## User Flow: Mapeando a Navegação e as Tarefas
-
-O **User Flow**, ou fluxo do usuário, é uma representação visual dos passos que uma pessoa realiza dentro de uma interface para alcançar um objetivo específico.
-
-Enquanto o User Journey possui uma visão ampla e estratégica, o User Flow atua como um "zoom" em um ponto específico da experiência, detalhando a navegação entre telas, funcionalidades e decisões tomadas durante a execução de uma tarefa.
+Enquanto o User Journey apresenta uma visão estratégica e abrangente, o User Flow detalha a navegação entre telas, decisões e interações necessárias para a execução de tarefas.
 
 Seu principal objetivo é responder perguntas como:
 
-* Como o usuário realiza determinada tarefa?
-* Quais passos são necessários para atingir um objetivo?
+* Como o usuário realiza determinada ação?
+* Quais etapas são necessárias para atingir um objetivo?
 * Onde podem ocorrer erros ou abandonos?
 * Como otimizar a navegação?
 
-O User Flow permite identificar gargalos, reduzir a complexidade das interações e alinhar o funcionamento do sistema com as expectativas dos usuários.
+Os fluxos utilizam símbolos padronizados para facilitar a comunicação entre designers e desenvolvedores:
 
-### Elementos e Simbologia Padrão
+* **Círculo:** início ou fim do processo;
+* **Retângulo:** telas ou páginas;
+* **Losango:** decisões ou condições;
+* **Setas:** direção do fluxo.
 
-Para facilitar a comunicação entre designers e desenvolvedores, os fluxos utilizam símbolos universalmente reconhecidos.
+Um exemplo simples de fluxo de compra é:
 
-| Símbolo     | Significado            | Exemplo                                   |
-| ----------- | ---------------------- | ----------------------------------------- |
-| ⚪ Círculo   | Início ou fim do fluxo | Entrada no sistema ou conclusão da tarefa |
-| ⬜ Retângulo | Tela ou página         | Login, Dashboard, Carrinho                |
-| 🔷 Losango  | Decisão ou condição    | "O login é válido?"                       |
-| ➡️ Seta     | Direção do fluxo       | Indica o próximo passo                    |
+**Início → Pesquisa de produto → Seleção do item → Carrinho → Checkout → Pagamento → Confirmação.**
 
-### Exemplo de User Flow
+Ao longo desse percurso, podem existir decisões, como validação de login, disponibilidade em estoque e aprovação do pagamento.
 
-Considere o fluxo de compra em um aplicativo de marketplace:
+## Principais Diferenças
 
-Início → Tela inicial → Pesquisa de produto → Seleção de item → Carrinho → Checkout → Pagamento → Confirmação de compra.
+| Aspecto          | User Journey                           | User Flow                       |
+| ---------------- | -------------------------------------- | ------------------------------- |
+| Objetivo         | Compreender a experiência e as emoções | Mapear a navegação e as tarefas |
+| Foco             | Contexto e comportamento humano        | Interação com a interface       |
+| Conteúdo         | Pensamentos, sentimentos e contexto    | Telas, ações e validações       |
+| Escopo           | Antes, durante e depois do uso         | Durante o uso do sistema        |
+| Nível de detalhe | Baixo a médio                          | Alto                            |
 
-Em pontos específicos, podem existir decisões:
-
-* O usuário está autenticado?
-* O pagamento foi aprovado?
-* O produto está disponível em estoque?
-
-Caso alguma condição não seja atendida, o fluxo apresenta caminhos alternativos para resolução do problema.
-
-## Comparativo entre User Journey e User Flow
-
-Embora sejam complementares, as duas ferramentas possuem objetivos distintos.
-
-| Característica      | User Journey                                | User Flow                                |
-| ------------------- | ------------------------------------------- | ---------------------------------------- |
-| Objetivo            | Entender a experiência e as emoções         | Entender a navegação e as tarefas        |
-| Foco                | Contexto e comportamento humano             | Interação com a interface                |
-| Conteúdo            | Pensamentos, sentimentos e contexto externo | Telas, botões, validações e erros        |
-| Nível de detalhe    | Baixo a médio                               | Alto                                     |
-| Escopo              | Antes, durante e depois do uso              | Durante o uso do sistema                 |
-| Perguntas-chave     | "Como o usuário se sente?"                  | "Como o usuário executa a tarefa?"       |
-| Principais usuários | Product Managers e UX Researchers           | Designers de Interface e Desenvolvedores |
-
-Em termos práticos, o User Journey explica o **porquê** da experiência, enquanto o User Flow detalha **como** ela acontece.
+Em termos práticos, o **User Journey explica o porquê da experiência**, enquanto o **User Flow demonstra como ela acontece**.
 
 ## Quando Utilizar Cada Ferramenta
 
-A escolha entre User Journey e User Flow depende da etapa do projeto.
+O **User Journey** é mais indicado nas fases iniciais do projeto, auxiliando na compreensão das necessidades, expectativas e dificuldades dos usuários.
 
-### Fase de Descoberta
+Já o **User Flow** deve ser utilizado quando os requisitos do sistema estão definidos e é necessário estruturar a navegação, detalhar regras de negócio e validar funcionalidades.
 
-Durante a pesquisa com usuários e a definição de personas, recomenda-se utilizar o User Journey.
+Uma sequência recomendada no processo de design é:
 
-Essa ferramenta ajuda a:
+**Personas → User Journey → User Flow → Protótipos → Desenvolvimento.**
 
-* Compreender necessidades reais;
-* Identificar oportunidades;
-* Mapear dores e expectativas;
-* Entender o contexto de uso.
+## Usabilidade e Acessibilidade
 
-### Fase de Definição e Desenvolvimento
+A qualidade da experiência depende não apenas da eficiência dos fluxos, mas também da adoção de boas práticas de usabilidade e acessibilidade.
 
-Quando os requisitos já estão definidos e a equipe precisa detalhar o funcionamento do sistema, utiliza-se o User Flow.
+Entre as principais recomendações estão:
 
-Essa ferramenta auxilia na:
-
-* Definição de regras de negócio;
-* Estruturação da navegação;
-* Identificação de exceções;
-* Validação de requisitos funcionais.
-
-Uma boa prática consiste em seguir a seguinte sequência:
-
-**Personas → User Journey → User Flow → Protótipos → Desenvolvimento**
-
-## Usabilidade e Acessibilidade nos Fluxos
-
-A qualidade da experiência do usuário depende não apenas da eficiência dos fluxos, mas também da adoção de boas práticas de usabilidade e acessibilidade.
-
-Entre as principais recomendações destacam-se:
-
-* Exibir mensagens de erro claras e orientadas à solução;
-* Permitir revisão e correção de informações antes do envio;
-* Evitar modais desnecessários e interrupções abruptas;
+* Exibir mensagens de erro claras;
+* Permitir revisão de informações antes do envio;
+* Evitar interrupções desnecessárias;
 * Garantir navegação completa por teclado;
-* Manter foco visual em todos os elementos interativos;
-* Organizar a ordem de navegação de forma lógica;
-* Assegurar que menus e submenus sejam acessíveis sem o uso do mouse.
+* Manter foco visual nos elementos interativos;
+* Organizar a navegação de forma lógica.
 
-Em outras palavras, se uma funcionalidade não pode ser utilizada por meio do teclado, ela não pode ser considerada plenamente acessível.
+Uma funcionalidade só pode ser considerada plenamente acessível quando pode ser utilizada sem a dependência do mouse.
 
 ## Ferramentas Recomendadas
 
-Diversas plataformas auxiliam na criação desses artefatos.
+Para a criação de **User Journeys**, destacam-se ferramentas colaborativas como Miro, Mural e FigJam.
 
-### Para User Journey
+Para o desenvolvimento de **User Flows**, são amplamente utilizados Figma, Lucidchart e Draw.io.
 
-* Miro;
-* Mural;
-* FigJam.
+## Referências
 
-Essas ferramentas favorecem atividades colaborativas e a organização de ideias em formato visual.
+BABICH, Nick. *Sitemaps & User Flows*. Adobe XD Ideas, 2019.
 
-### Para User Flow
+GARRETT, Jesse James. *The Elements of User Experience*. 2. ed. Berkeley: New Riders, 2011.
 
-* Figma;
-* Lucidchart;
-* Draw.io.
+KAPLAN, Kara. *When and How to Create Customer Journey Maps*. Nielsen Norman Group, 2016.
 
-São opções adequadas para a construção de fluxos detalhados e alinhados às necessidades técnicas do projeto.
-
-## Referências Bibliográficas
-
-BABICH, Nick. Sitemaps & User Flows. Adobe XD Ideas, 2019.
-
-KAPLAN, Kara. When and How to Create Customer Journey Maps. Nielsen Norman Group, 2016.
-
-NIELSEN NORMAN GROUP. User Journeys vs. User Flows. Disponível em: [https://www.nngroup.com](https://www.nngroup.com).
-
-GARRETT, Jesse James. The Elements of User Experience. 2. ed. Berkeley: New Riders, 2011.
+Nielsen Norman Group. *User Journeys vs. User Flows*. Disponível em: https://www.nngroup.com.
