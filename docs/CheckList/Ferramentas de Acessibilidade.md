@@ -1,91 +1,93 @@
 # Ferramentas de Acessibilidade
 
-Ferramentas de acessibilidade são recursos utilizados para auxiliar na identificação de barreiras em sites, sistemas e aplicações digitais. Elas podem apontar problemas relacionados a contraste, textos alternativos, formulários, estrutura de cabeçalhos, semântica HTML, links, botões e navegação.
+Ferramentas de acessibilidade ajudam a identificar barreiras em sites e sistemas digitais.
+Elas apontam problemas como contraste, textos alternativos, formulários, semântica e navegação.
 
-Essas ferramentas ajudam na avaliação inicial da acessibilidade, mas não substituem a análise humana. Alguns problemas só podem ser percebidos durante o uso real da interface, especialmente aqueles relacionados à compreensão, fluxo de navegação, clareza das informações e experiência com tecnologias assistivas.
-
-Por isso, a verificação de acessibilidade deve combinar ferramentas automáticas, testes manuais, navegação por teclado, análise visual e, quando possível, testes com leitores de tela e usuários reais.
+Essas ferramentas apoiam a avaliação, mas não substituem testes manuais.
+Por isso, a análise deve combinar ferramentas automáticas, teclado, inspeção visual e tecnologias assistivas.
 
 <div class="category-progress-widget" data-category="ferramentas-acessibilidade" data-title="Progresso - Ferramentas de Acessibilidade"></div>
 
 ## Ferramentas automáticas de avaliação
 
-* <input type="checkbox" data-id="fer-automaticas-1"> O site foi analisado com pelo menos uma ferramenta automática de acessibilidade.
-* <input type="checkbox" data-id="fer-automaticas-2"> A equipe verificou erros de contraste, textos alternativos, labels e estrutura da página.
-* <input type="checkbox" data-id="fer-automaticas-3"> Os problemas apontados pela ferramenta foram revisados manualmente antes de serem considerados erros reais.
-* <input type="checkbox" data-id="fer-automaticas-4"> Os resultados das ferramentas foram usados como apoio para melhorias, e não como única forma de avaliação.
+Ferramentas automáticas ajudam a encontrar problemas iniciais, mas seus resultados precisam ser revisados manualmente.
+
+* <input type="checkbox" data-id="fer-automaticas-1"> O site foi analisado com pelo menos uma ferramenta automática.
+* <input type="checkbox" data-id="fer-automaticas-2"> Foram verificados contraste, textos alternativos, labels e estrutura da página.
+* <input type="checkbox" data-id="fer-automaticas-3"> Os erros apontados foram revisados manualmente.
+* <input type="checkbox" data-id="fer-automaticas-4"> A ferramenta foi usada como apoio, não como única avaliação.
 
 ## Lighthouse
 
-O Lighthouse é uma ferramenta integrada ao Chrome DevTools que permite avaliar páginas web em diferentes aspectos, como desempenho, boas práticas, SEO e acessibilidade. Na parte de acessibilidade, ele gera um relatório com problemas encontrados e sugestões de correção.
+O Lighthouse é uma ferramenta do Chrome DevTools que gera relatórios sobre acessibilidade, desempenho e boas práticas.
 
-* <input type="checkbox" data-id="fer-lighthouse-1"> O site foi testado no Lighthouse com a categoria de acessibilidade ativada.
-* <input type="checkbox" data-id="fer-lighthouse-2"> A equipe analisou os itens reprovados no relatório de acessibilidade.
-* <input type="checkbox" data-id="fer-lighthouse-3"> Os problemas indicados pelo Lighthouse foram comparados com o checklist do guia.
-* <input type="checkbox" data-id="fer-lighthouse-4"> A pontuação do Lighthouse não foi usada como única prova de que o site é acessível.
+* <input type="checkbox" data-id="fer-lighthouse-1"> O site foi testado no Lighthouse com acessibilidade ativada.
+* <input type="checkbox" data-id="fer-lighthouse-2"> Os itens reprovados foram analisados.
+* <input type="checkbox" data-id="fer-lighthouse-3"> Os problemas foram comparados com o checklist.
+* <input type="checkbox" data-id="fer-lighthouse-4"> A pontuação não foi usada como única prova de acessibilidade.
 
 ## WAVE
 
-O WAVE é uma ferramenta de avaliação visual de acessibilidade. Ele ajuda a identificar erros, alertas, estrutura de cabeçalhos, textos alternativos, contraste e elementos de formulário diretamente na página analisada.
+O WAVE mostra visualmente problemas de acessibilidade, como contraste, cabeçalhos, textos alternativos e formulários.
 
-* <input type="checkbox" data-id="fer-wave-1"> O site foi analisado com o WAVE ou com sua extensão para navegador.
-* <input type="checkbox" data-id="fer-wave-2"> A equipe verificou se há imagens sem texto alternativo adequado.
-* <input type="checkbox" data-id="fer-wave-3"> A equipe conferiu alertas relacionados a contraste, formulários, links e cabeçalhos.
-* <input type="checkbox" data-id="fer-wave-4"> Os alertas do WAVE foram interpretados considerando o contexto real da página.
+* <input type="checkbox" data-id="fer-wave-1"> O site foi analisado com o WAVE ou extensão similar.
+* <input type="checkbox" data-id="fer-wave-2"> Foram verificadas imagens sem texto alternativo.
+* <input type="checkbox" data-id="fer-wave-3"> Foram conferidos alertas de contraste, formulários, links e cabeçalhos.
+* <input type="checkbox" data-id="fer-wave-4"> Os alertas foram interpretados de acordo com o contexto da página.
 
 ## Axe DevTools
 
-O Axe DevTools é uma ferramenta de avaliação de acessibilidade que pode ser usada diretamente no navegador. Ela ajuda desenvolvedores e avaliadores a encontrar problemas comuns de acessibilidade em páginas web.
+O Axe DevTools auxilia na identificação de problemas técnicos de acessibilidade diretamente no navegador.
 
 * <input type="checkbox" data-id="fer-axe-1"> O site foi testado com Axe DevTools ou ferramenta semelhante.
-* <input type="checkbox" data-id="fer-axe-2"> A equipe verificou problemas relacionados a nomes acessíveis, contraste, ARIA e semântica HTML.
-* <input type="checkbox" data-id="fer-axe-3"> Os erros encontrados foram classificados de acordo com sua gravidade.
-* <input type="checkbox" data-id="fer-axe-4"> As sugestões da ferramenta foram usadas para orientar possíveis correções.
+* <input type="checkbox" data-id="fer-axe-2"> Foram verificados nomes acessíveis, contraste, ARIA e HTML semântico.
+* <input type="checkbox" data-id="fer-axe-3"> Os erros encontrados foram classificados por gravidade.
+* <input type="checkbox" data-id="fer-axe-4"> As sugestões da ferramenta foram consideradas na análise.
 
 ## Testes manuais
 
-Os testes manuais são necessários porque algumas barreiras só aparecem durante o uso real da interface. Uma ferramenta pode indicar erros técnicos, mas nem sempre consegue avaliar se a navegação é compreensível, previsível e confortável para o usuário.
+Testes manuais ajudam a encontrar problemas que ferramentas automáticas não percebem durante o uso real da interface.
 
-* <input type="checkbox" data-id="fer-manuais-1"> O site foi navegado manualmente pela equipe.
-* <input type="checkbox" data-id="fer-manuais-2"> A equipe verificou se as principais tarefas podem ser concluídas sem dificuldades.
-* <input type="checkbox" data-id="fer-manuais-3"> A equipe testou se menus, links, botões e formulários funcionam de forma clara.
-* <input type="checkbox" data-id="fer-manuais-4"> A equipe observou se as mensagens de erro são compreensíveis e ajudam o usuário a corrigir o problema.
+* <input type="checkbox" data-id="fer-manuais-1"> O site foi navegado manualmente.
+* <input type="checkbox" data-id="fer-manuais-2"> As principais tarefas puderam ser concluídas sem dificuldade.
+* <input type="checkbox" data-id="fer-manuais-3"> Menus, links, botões e formulários funcionam de forma clara.
+* <input type="checkbox" data-id="fer-manuais-4"> As mensagens de erro são compreensíveis e úteis.
 
 ## Navegação por teclado
 
-A navegação por teclado é essencial para usuários que não utilizam mouse, incluindo pessoas com deficiência motora e usuários de leitores de tela.
+A navegação por teclado é essencial para usuários que não utilizam mouse ou usam leitores de tela.
 
-* <input type="checkbox" data-id="fer-teclado-1"> Todas as funcionalidades principais podem ser acessadas usando apenas o teclado.
-* <input type="checkbox" data-id="fer-teclado-2"> A ordem de navegação pela tecla Tab segue uma sequência lógica.
-* <input type="checkbox" data-id="fer-teclado-3"> O foco visual está sempre visível durante a navegação.
-* <input type="checkbox" data-id="fer-teclado-4"> Não existem armadilhas de foco em menus, modais, formulários ou componentes interativos.
+* <input type="checkbox" data-id="fer-teclado-1"> As funcionalidades principais funcionam apenas com teclado.
+* <input type="checkbox" data-id="fer-teclado-2"> A ordem da tecla Tab segue uma sequência lógica.
+* <input type="checkbox" data-id="fer-teclado-3"> O foco visual permanece visível durante a navegação.
+* <input type="checkbox" data-id="fer-teclado-4"> Não há armadilhas de foco em menus, modais ou formulários.
 
 ## Leitores de tela e tecnologias assistivas
 
-Leitores de tela permitem que pessoas com deficiência visual naveguem por sites e sistemas digitais. Por isso, é importante verificar se a estrutura da página, os rótulos, os botões e os links fazem sentido quando lidos por uma tecnologia assistiva.
+Leitores de tela ajudam pessoas com deficiência visual a navegar e compreender o conteúdo da página.
 
-* <input type="checkbox" data-id="fer-leitores-1"> A página possui estrutura de cabeçalhos organizada e compreensível.
-* <input type="checkbox" data-id="fer-leitores-2"> Botões, links e campos de formulário possuem nomes claros para leitores de tela.
+* <input type="checkbox" data-id="fer-leitores-1"> A página possui cabeçalhos organizados.
+* <input type="checkbox" data-id="fer-leitores-2"> Botões, links e campos possuem nomes claros.
 * <input type="checkbox" data-id="fer-leitores-3"> Imagens informativas possuem texto alternativo adequado.
-* <input type="checkbox" data-id="fer-leitores-4"> A equipe testou a navegação com leitor de tela ou considerou esse tipo de teste no processo de avaliação.
+* <input type="checkbox" data-id="fer-leitores-4"> A navegação com leitor de tela foi testada ou considerada.
 
 ## Zoom, responsividade e adaptação visual
 
-Além das ferramentas automáticas, é importante verificar como a interface se comporta em diferentes tamanhos de tela, níveis de zoom e condições de visualização.
+A interface deve continuar legível e organizada em diferentes telas, resoluções e níveis de zoom.
 
 * <input type="checkbox" data-id="fer-visual-1"> O conteúdo permanece legível com zoom aumentado.
-* <input type="checkbox" data-id="fer-visual-2"> A página não perde informações importantes quando visualizada em telas menores.
+* <input type="checkbox" data-id="fer-visual-2"> A página não perde informações em telas menores.
 * <input type="checkbox" data-id="fer-visual-3"> A interface mantém boa organização em diferentes resoluções.
-* <input type="checkbox" data-id="fer-visual-4"> O usuário não precisa rolar a página em duas direções para compreender o conteúdo principal.
+* <input type="checkbox" data-id="fer-visual-4"> O conteúdo principal não exige rolagem em duas direções.
 
 ## Registro dos problemas encontrados
 
-A avaliação de acessibilidade deve gerar algum tipo de registro para que a equipe consiga acompanhar os problemas encontrados e as melhorias realizadas.
+Registrar os problemas ajuda a organizar correções, prioridades e justificativas da avaliação.
 
 * <input type="checkbox" data-id="fer-registro-1"> Os problemas encontrados foram anotados de forma clara.
-* <input type="checkbox" data-id="fer-registro-2"> Cada problema possui indicação da página ou componente onde foi encontrado.
+* <input type="checkbox" data-id="fer-registro-2"> Cada problema indica a página ou componente afetado.
 * <input type="checkbox" data-id="fer-registro-3"> Os problemas foram classificados por gravidade ou prioridade.
-* <input type="checkbox" data-id="fer-registro-4"> A equipe registrou possíveis recomendações de correção.
+* <input type="checkbox" data-id="fer-registro-4"> Foram registradas possíveis recomendações de correção.
 
 ---
 
@@ -100,4 +102,3 @@ GOOGLE. **Lighthouse**. Chrome for Developers. Disponível em: https://developer
 WEBAIM. **WAVE Web Accessibility Evaluation Tools**. Disponível em: https://wave.webaim.org/
 
 DEQUE. **Axe DevTools**. Disponível em: https://www.deque.com/axe/devtools/
-
