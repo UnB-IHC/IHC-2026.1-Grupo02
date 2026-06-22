@@ -1,26 +1,21 @@
 # Blueprinting (Mapa de Serviço)
 
-O Blueprinting é um método que permite visualizar como uma organização entrega valor e experiência ao cliente, analisando sua jornada para compreender os processos que acontecem nos bastidores.
-
-Seu principal valor está em tornar visíveis as atividades, sistemas e interações necessárias para que uma experiência seja entregue. Trata-se de uma abordagem colaborativa que facilita o diálogo entre stakeholders, promove o alinhamento entre equipes e oferece uma visão holística do serviço.
+O Blueprinting é um método de visualização que conecta a experiência do cliente aos processos internos que a tornam possível. Seu objetivo é revelar como um serviço funciona, identificando atividades, sistemas e interações que sustentam a entrega de valor.
 
 ## Quando usar?
 
-Utilize quando precisar compreender como a experiência do cliente é produzida internamente, identificar gargalos operacionais, alinhar equipes ou planejar melhorias em serviços existentes.
+Quando for necessário compreender a operação de um serviço, identificar gargalos, alinhar equipes ou planejar melhorias na experiência do cliente.
 
----
+## O que é Blueprinting?
 
-## 1. O que é Blueprinting?
+O Blueprinting permite visualizar um serviço de ponta a ponta, relacionando a jornada do cliente aos processos internos da organização.
 
-O Blueprinting é uma ferramenta de visualização que conecta a experiência do cliente aos processos internos que a sustentam.
+Ele ajuda a:
 
-Ele permite:
-
-* Entender como um serviço funciona de ponta a ponta.
-* Identificar falhas e gargalos operacionais.
+* Entender como o serviço funciona.
+* Identificar falhas e gargalos.
 * Visualizar dependências entre equipes e sistemas.
-* Diagnosticar problemas difíceis de perceber.
-* Gerar oportunidades de melhoria.
+* Encontrar oportunidades de melhoria.
 
 ### Objetivo
 
@@ -28,197 +23,138 @@ Responder à pergunta:
 
 > "O que produz a experiência do cliente?"
 
-Enquanto outras ferramentas focam na percepção do usuário, o Blueprinting investiga os mecanismos internos que tornam essa experiência possível.
+Enquanto a jornada do usuário mostra a experiência, o Blueprint mostra como ela é construída.
 
----
+## Blueprinting x Journey Map
 
-## 2. Blueprinting x Journey Map
+Embora complementares, possuem focos diferentes:
 
-Embora sejam frequentemente utilizados juntos, possuem propósitos diferentes.
-
-| Método       | Foco Principal         | Pergunta Respondida              |
+| Método       | Foco                   | Pergunta                         |
 | ------------ | ---------------------- | -------------------------------- |
 | Journey Map  | Experiência do cliente | "O que o cliente sente?"         |
 | Blueprinting | Operação do serviço    | "O que produz essa experiência?" |
 
-### Diferença Principal
+O Journey Map desenvolve empatia com o usuário, enquanto o Blueprinting ajuda a diagnosticar e melhorar processos.
 
-* O **Journey Map** desenvolve empatia com o usuário.
-* O **Blueprinting** gera diagnósticos e direciona melhorias operacionais.
+## Frontstage e Backstage
 
-### Importante
+### Frontstage
 
-Os dois métodos são complementares e oferecem uma visão mais completa quando utilizados em conjunto.
-
----
-
-## 3. Frontstage e Backstage
-
-Uma das características centrais do Blueprinting é a separação entre o que o cliente vê e o que acontece nos bastidores.
-
-### 1. Frontstage
-
-Representa tudo aquilo que é visível ao cliente.
+Tudo o que é visível ao cliente.
 
 **Exemplos:**
 
-* Interface de um aplicativo.
-* Atendimento presencial.
-* Chatbot.
-* E-mails enviados ao cliente.
-* Comunicação de suporte.
+* Interfaces digitais
+* Atendimento
+* Chatbots
+* E-mails e comunicações
 
-### 2. Backstage
+### Backstage
 
-Representa os processos internos que sustentam a experiência.
-
-**Exemplos:**
-
-* Processos operacionais.
-* Equipes de suporte.
-* Aprovações internas.
-* Regras de negócio.
-* Sistemas corporativos.
-
-### Importante
-
-O cliente normalmente não possui visibilidade das atividades realizadas no Backstage.
-
----
-
-## 4. Estrutura de um Blueprint
-
-A estrutura de um Blueprint costuma ser organizada em diferentes níveis.
-
-### 1. Cenários
-
-Representam fluxos completos de ponta a ponta.
+Processos internos que sustentam a experiência.
 
 **Exemplos:**
 
-* Comprar um produto.
-* Solicitar atendimento.
-* Abrir uma conta.
-* Contratar um serviço.
+* Equipes de suporte
+* Regras de negócio
+* Aprovações internas
+* Sistemas corporativos
 
-### 2. Fases
+O cliente normalmente não vê essas atividades.
 
-Agrupam etapas semelhantes dentro do fluxo.
+## Estrutura de um Blueprint
 
-**Exemplos:**
+### Cenários
 
-* Descoberta.
-* Contratação.
-* Entrega.
-* Pós-venda.
+Fluxos completos do serviço.
 
-### 3. Passos
+**Exemplos:** compra, contratação ou solicitação de atendimento.
 
-Detalham as ações executadas durante cada fase.
+### Fases
 
-**Exemplos:**
+Agrupamentos de etapas semelhantes.
 
-* Cliente realiza cadastro.
-* Sistema valida informações.
-* Equipe aprova solicitação.
-* Serviço é disponibilizado.
+**Exemplos:** descoberta, contratação, entrega e pós-venda.
 
----
+### Passos
 
-## 5. Como Construir um Blueprint?
+Ações executadas por clientes, equipes ou sistemas ao longo do processo.
 
-O processo geralmente envolve atividades colaborativas e multidisciplinares.
+## Como Construir um Blueprint?
 
-### Etapa 1: Planejamento
+### 1. Planejamento
 
-Definir:
+Definir objetivo, escopo, cenário e participantes.
 
-* Objetivo do mapeamento.
-* Escopo do serviço.
-* Cenário a ser analisado.
-* Participantes envolvidos.
+### 2. Mapeamento Colaborativo
 
-### Etapa 2: Workshops Colaborativos
+Identificar:
 
-Reunir stakeholders para mapear:
+* Ações do cliente
+* Interações visíveis
+* Processos internos
+* Sistemas de suporte
 
-* Ações dos clientes.
-* Interações visíveis.
-* Processos internos.
-* Sistemas de suporte.
+### 3. Organização das Camadas
 
-### Etapa 3: Definição das Camadas
+Estruturar informações como:
 
-Determinar quais informações serão capturadas.
+* Ações do cliente
+* Frontstage
+* Backstage
+* Sistemas de apoio
 
-**Exemplos de camadas:**
+### 4. Síntese
 
-* Ações do cliente.
-* Frontstage.
-* Backstage.
-* Sistemas de suporte.
-* Indicadores operacionais.
+Transformar os aprendizados em diagnósticos, oportunidades e planos de melhoria.
 
-### Etapa 4: Síntese dos Resultados
+## Benefícios
 
-Transformar os aprendizados obtidos em:
+### Para as equipes
 
-* Diagnósticos.
-* Oportunidades de melhoria.
-* Prioridades de ação.
-* Planos de evolução do serviço.
+* Melhor alinhamento
+* Comunicação mais eficiente
+* Visão compartilhada do serviço
 
----
+### Para a organização
 
-## 6. Principais Benefícios
+* Identificação de gargalos
+* Melhor compreensão dos processos
+* Maior eficiência operacional
 
-A utilização do Blueprinting proporciona diversas vantagens.
+### Para o cliente
 
-### Para as Equipes
+* Experiências mais consistentes
+* Menos falhas no serviço
+* Melhor atendimento
 
-* Melhor alinhamento entre áreas.
-* Visão compartilhada do serviço.
-* Comunicação mais eficiente entre stakeholders.
+## Erro Comum
 
-### Para a Organização
+Mapear apenas o cenário ideal.
 
-* Identificação de gargalos operacionais.
-* Diagnóstico de problemas complexos.
-* Melhor compreensão das dependências entre processos.
-* Maior eficiência operacional.
+Um Blueprint eficiente também considera exceções e falhas, como:
 
-### Para o Cliente
+* Pagamentos recusados
+* Sistemas indisponíveis
+* Falta de estoque
+* Solicitações rejeitadas
 
-* Experiências mais consistentes.
-* Redução de falhas na prestação do serviço.
-* Melhor qualidade de atendimento.
-
----
-
-## ⚠️ Erro Comum
-
-Mapear apenas o "caminho feliz" do usuário.
-
-Um Blueprint eficiente também deve representar exceções, falhas e cenários alternativos, como:
-
-* Pagamento recusado.
-* Sistema indisponível.
-* Produto sem estoque.
-* Solicitação rejeitada.
-
-Essas situações normalmente revelam os maiores pontos de melhoria do serviço.
-
----
+Esses cenários geralmente revelam as maiores oportunidades de melhoria.
 
 ## Resultado Esperado
 
-Ao final do processo, o Blueprint fornece uma visão holística do serviço, permitindo compreender:
+O Blueprint fornece uma visão integrada da experiência do cliente e dos processos que a sustentam, permitindo identificar gargalos, alinhar equipes e priorizar melhorias para tornar os serviços mais eficientes e consistentes.
 
-* Como a experiência do cliente é construída.
-* Quais processos sustentam essa experiência.
-* Onde existem gargalos e ineficiências.
-* Como alinhar equipes, sistemas e recursos.
-* Quais oportunidades de melhoria devem ser priorizadas.
+---
 
-O resultado é uma base sólida para evolução contínua dos serviços e para a criação de experiências mais eficientes e consistentes.
+# Bibliografia
 
+BITNER, Mary Jo; OSTROM, Amy L.; MORGAN, Felicia N. Service Blueprinting: A Practical Technique for Service Innovation. *California Management Review*, v. 50, n. 3, p. 66–94, 2008.
+
+KALBACH, Jim. *Mapeamento de Experiências: Um Guia para Criar Valor por Meio de Jornadas, Blueprints e Diagramas*. Rio de Janeiro: Alta Books, 2017.
+
+POLAINE, Andy; LØVLIE, Lavrans; REASON, Ben. *Service Design: From Insight to Implementation*. New York: Rosenfeld Media, 2013.
+
+SHOSTACK, G. Lynn. Designing Services That Deliver. *Harvard Business Review*, v. 62, n. 1, p. 133–139, 1984.
+
+STICKDORN, Marc; SCHNEIDER, Jakob. *Isto é Design de Serviços na Prática*. Porto Alegre: Bookman, 2014.
