@@ -1,56 +1,47 @@
 # Design Empático
 
-O Design Empático é uma abordagem centrada nas pessoas que busca compreender suas necessidades, comportamentos, emoções e motivações para criar soluções mais relevantes e significativas.
+Para criar produtos e serviços que realmente atendam às necessidades das pessoas, precisamos compreender mais do que suas ações. Este guia resume os princípios fundamentais do Design Empático.
 
-## Quando usar?
+## 1. Empatia (Compreendendo o Usuário)
 
-Quando for necessário entender melhor os usuários, identificar necessidades não explícitas e desenvolver soluções alinhadas às suas experiências.
+Empatia em design é a capacidade de entender as necessidades, emoções, comportamentos e motivações das pessoas para tomar decisões mais alinhadas à realidade dos usuários.
 
-## O que é Empatia no Design?
+O objetivo não é apenas ouvir o que o usuário diz, mas compreender o contexto por trás de suas experiências.
 
-Empatia no design significa compreender o usuário além do que ele diz ou faz, considerando:
+### Como praticar no projeto?
 
-* O que faz
-* O que pensa
-* O que sente
-* O que valoriza
-* Quais dificuldades enfrenta
+* Observe o que as pessoas realmente fazem, não apenas o que relatam.
+* Procure entender as emoções envolvidas em cada situação.
+* Evite assumir que todos pensam ou agem da mesma forma.
+* Valide suas descobertas com usuários reais.
 
-Essa compreensão orienta decisões mais alinhadas às necessidades reais das pessoas.
+## 2. Tipos de Empatia
 
-## Tipos de Empatia
+O Design Empático utiliza diferentes formas de compreensão para analisar a experiência das pessoas.
 
 ### Empatia Cognitiva
 
-Entender pensamentos, perspectivas e processos de decisão.
+Busca compreender pensamentos, perspectivas e processos de decisão.
 
 **Pergunta-chave:** O que essa pessoa está pensando?
 
 ### Empatia Afetiva
 
-Compreender emoções e sentimentos.
+Busca compreender emoções, sentimentos e reações.
 
 **Pergunta-chave:** O que essa pessoa está sentindo?
 
 ### Empatia Comportamental
 
-Observar comportamentos e interações reais.
+Analisa ações e comportamentos observáveis.
 
-**Pergunta-chave:** O que essa pessoa faz?
+**Pergunta-chave:** O que essa pessoa está fazendo?
 
-## Relação com o Design Thinking
+## 3. Métodos Utilizados
 
-O Design Empático é um dos pilares do Design Thinking, ajudando a:
+Diversas técnicas podem ser utilizadas para desenvolver empatia com os usuários.
 
-1. Compreender usuários
-2. Identificar problemas reais
-3. Gerar soluções
-4. Prototipar
-5. Testar e validar
-
-Seu objetivo é reduzir suposições e criar soluções baseadas em evidências.
-
-## Métodos Utilizados
+### Métodos mais comuns
 
 * Entrevistas
 * Observação contextual
@@ -61,39 +52,28 @@ Seu objetivo é reduzir suposições e criar soluções baseadas em evidências.
 * Jornadas do Usuário
 * Storyboards
 
+Essas ferramentas ajudam a transformar observações em conhecimento útil para o projeto.
+
 ## Benefícios
 
 ### Para os usuários
 
 * Experiências mais relevantes
-* Maior facilidade de uso
-* Mais satisfação
+* Produtos mais fáceis de usar
+* Maior satisfação
 
 ### Para as organizações
 
 * Redução de riscos
-* Melhor alinhamento com o mercado
+* Melhor alinhamento com as necessidades do mercado
 * Mais inovação
 * Decisões baseadas em evidências
 
-## Desafios
+## Dica de Ouro
 
-* Possibilidade de vieses na interpretação
-* Alto investimento de tempo
-* Dificuldade de acesso aos usuários
-* Necessidade de validação dos insights
+Empatia não significa apenas perguntar ao usuário o que ele deseja. Muitas vezes, as necessidades mais importantes aparecem na observação de comportamentos, emoções e dificuldades que as pessoas não conseguem expressar claramente.
 
-## Erro Comum
-
-Acreditar que empatia é apenas perguntar o que o usuário deseja. O Design Empático busca entender também o que as pessoas fazem, sentem e nem sempre conseguem expressar.
-
-## Resultado Esperado
-
-Criar produtos, serviços e experiências que resolvam problemas reais, atendam necessidades explícitas e implícitas e fortaleçam a conexão entre usuários e organizações.
-
----
-
-# Bibliografia
+## Referência Bibliográfica
 
 BROWN, Tim. *Design Thinking: Uma Metodologia Poderosa para Decretar o Fim das Velhas Ideias*. Rio de Janeiro: Elsevier, 2010.
 
