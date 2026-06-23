@@ -40,10 +40,9 @@ A acessibilidade deve ser considerada desde a fase de concepção do projeto. Al
 ---
 ### Requisitos e Critérios
 
-* <input type="checkbox" data-id="ges-requisitos-1"> Acessibilidade foi definida como requisito essencial desde a fase de concepção do projeto? 
-* <input type="checkbox" data-id="ges-requisitos-2"> Tarefas com critérios de sucesso que atendam pelo menos os níveis A e AA, segundo WCAG?
-* <input type="checkbox" data-id="ges-requisitos-3"> As partes interessadas foram informadas da importância da acessibilidade?
-
+* <input type="checkbox" data-id="ges-requisitos-1"> Os requisitos não funcionais contemplam critérios de acessibilidade?
+* <input type="checkbox" data-id="ges-requisitos-2"> Existem critérios de sucesso alinhados aos níveis A e AA da WCAG?
+* <input type="checkbox" data-id="ges-requisitos-3"> Os critérios de acessibilidade podem ser verificados durante a validação do projeto?
 ---
 
 ## Referências Bibliográficas
