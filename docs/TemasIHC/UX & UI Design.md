@@ -1,4 +1,4 @@
-# UX Design
+# UX/UI Design
 
 ## Acessibilidade Digital e Avaliação da Experiência do Usuário
 
@@ -40,6 +40,17 @@ Os métodos de avaliação podem ser classificados como:
 * **Somativos:** realizados ao final do projeto;
 * **Empíricos:** envolvem usuários reais;
 * **Analíticos:** utilizam critérios e conhecimentos especializados.
+
+## Interface e Design Visual (UI)
+
+* **Hierarquia visual:** organizar informações para que o usuário identifique facilmente o que é mais importante.
+* **Consistência visual:** manter padrões de cores, tipografia, botões, ícones e espaçamentos em todas as telas.
+* **Sistema de cores:** utilizar uma paleta coerente, com contraste adequado e significado consistente para cada cor.
+* **Tipografia:** escolher fontes legíveis, definir tamanhos, pesos e espaçamentos que facilitem a leitura.
+* **Layout e alinhamento:** distribuir os elementos de forma organizada, evitando poluição visual.
+* **Feedback visual:** indicar claramente quando uma ação foi realizada, como animações sutis, mudanças de estado de botões e mensagens de confirmação.
+* **Componentes de interface:** utilizar botões, campos de formulário, menus e cartões de forma padronizada, facilitando o aprendizado da interface.
+* **Design responsivo:** garantir que a interface funcione bem em diferentes tamanhos de tela e dispositivos.
 
 ## Avaliação Heurística
 
